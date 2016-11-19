@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum languaje="en">
+	<personalInformation>
+		<name>
+			<firstName>Andoni</firstName>
+			<lastName>Sánchez Antolín</lastName>
+		</name>
+        <city>Irún, Guipúzcoa</city>
+        <country>Spain</country>
+		<dateOfBirth>1992</dateOfBirth>
+		<contactInfo>
+			<email img="images/email.png">andoni.sanchez.antolin@gmail.com</email>
+			<socialNetwork name="LinkedIn" username="andonisanchezantolin" img="images/linkedin.png">https://www.linkedin.com/in/andonisanchezantolin</socialNetwork>
+            <socialNetwork name="GitHub" username="@asanchez156" img="images/github.png" >https://github.com/asanchez156</socialNetwork>
+            <socialNetwork name="Twitter" username="@andonisanchezz" img="images/twitter.png">https://twitter.com/andonisanchezz</socialNetwork>
+			<webSite img="images/site.png">http://asanchez.my-style.in/</webSite>
+		</contactInfo>
+		<aboutMe>
+			Computer Science Engineer, specialized in Software Engineering. Passionate about the automation of "things", born in a small city of Guipúzcoa called Irún, Spain, 24 years ago. Since I was little I have been interested in the innovation and automation of the devices that surround me.
+
+			In my free time I like to inform myself about the changes that are constantly occurring in the information sector, be it "gadgets" (new applications) or web development and mobile apps. I analyze and structure in my mind what its design would look like. I also like to cook and elaborate dishes with peculiar designs.
+
+			I am passionate about traveling both foreign countries and Spain, due to two totally different aspects as related: to know the world and other cultures and to attend auditions or computer conferences.
+		</aboutMe>
+		<image>images/andonisanchezantolin.png</image>
+	</personalInformation>
+	<academicInformation>
+		<study>
+			<name>Computer Science Degree</name>
+			<startDate>2012-09-10</startDate>
+			<endDate>2016-07-11</endDate>
+			<center>Vasque Contry University</center>
+			<description>Specialized in Software Engineering</description>
+		</study>
+		<study>
+			<name>Higher degree in telecommunications and computer systems</name>
+			<startDate>2010-09-10</startDate>
+			<endDate>2012-06-04</endDate>
+			<center>IEFPS Bidasoa</center>
+			<description>Antennas, telephony, networks, programming languages</description>
+		</study>
+        <study>
+            <name>Science and Technology Bachelor</name>
+            <startDate>2008-09-08</startDate>
+            <endDate>2010-05-24</endDate>
+            <center>Pio Baroja BHI</center>
+        </study>
+	</academicInformation>
+	<courses>
+		<course>
+			<name>Learn Java Server Faces (JSF) from scratch</name>
+            <startDate>2016-09-22</startDate>
+            <endDate>2016-09-29</endDate>
+            <center>Udemy</center>
+			<description></description>
+		</course>
+		<course>
+			<name>Web developing with Spring 4 + JDBC + MVC + Hibernate + JSON + AJAX</name>
+            <startDate>2016-09-01</startDate>
+            <endDate>2016-09-06</endDate>
+            <center>Udemy</center>
+			<description></description>
+		</course>
+		<course>
+			<name>RITSI congress Cádiz 2015</name>
+            <startDate></startDate>
+            <endDate></endDate>
+            <center></center>
+			<description></description>
+		</course>
+		<course>
+			<name>RITSI congress Donostia/San Sebastián 2014</name>
+			<description></description>
+		</course>
+		<course>
+			<name>Android application developer 12h course</name>
+			<startDate>2011-03-10</startDate>
+			<endDate>2011-03-13</endDate>
+			<center>Miramón Technology Park</center>
+			<description></description>
+		</course>
+	</courses>
+	<workExperience>
+		<professionalExperience type="employee">
+            <startDate>2016-09-29</startDate>
+            <endDate>At the present time</endDate>
+            <company>Indaba Consultores S.L (LKS)</company>
+            <occupation>Programmer</occupation>
+            <description>Self-training in Java Server Faces, Spring 4 MVC, Ionic Framework (versiones 1 y 2) and Liferay 6.2 technologies.</description>
+        </professionalExperience>
+        <professionalExperience type="practices">
+            <startDate>2016-01-27</startDate>
+            <endDate>2016-07-11</endDate>
+            <company>ATELEI Engineering</company>
+            <occupation>End of grade project.</occupation>
+            <description>Study and search for alternatives for replacing java applets in web environments. Development of an application for the ESP8266 microcontroller for REST communications via SSL sockets.</description>
+        </professionalExperience>
+		<professionalExperience type="practices">
+			<startDate>2015-06-15</startDate>
+			<endDate>2015-09-10</endDate>
+			<company>ATELEI Engineering</company>
+			<occupation>Engineer practices</occupation>
+			<description>Performing the frontend and backed of a cloud access control application. Apache server configuration for dynamic subdomains and application deployment.</description>
+		</professionalExperience>
+		<professionalExperience type="practices">
+			<startDate>2012-02-27</startDate>
+			<endDate>2012-06-06</endDate>
+			<company>Sistemas de Oficina del Bidasoa, S.L. CANON</company>
+			<occupation>Practical technician in computer systems, connectivity and multifunction machines (printers, scanners, faxes).</occupation>
+			<description></description>
+		</professionalExperience>
+		<professionalExperience type="employee">
+			<startDate>2014-06-15</startDate>
+			<endDate>2016-06-20</endDate>
+			<company>Ilcapo Restaurant</company>
+			<occupation>Food deliverer</occupation>
+			<description></description>
+		</professionalExperience>
+		<professionalExperience type="employee">
+			<startDate>2014-06-26</startDate>
+			<endDate>2014-10-25</endDate>
+			<company>El Torreon Restaurant</company>
+			<occupation>Extra waiter</occupation>
+			<description></description>
+		</professionalExperience>
+		<professionalExperience type="employee">
+			<startDate>2010-06-15</startDate>
+			<endDate>2011-09-09</endDate>
+			<company>Hondarribia Airport Restaurant</company>
+			<occupation>Extra waiter</occupation>
+			<description></description>
+		</professionalExperience>
+	</workExperience>
+	<otherInformation>
+		<linguisticSkills>
+			<languageInfo motherTongue="yes">
+				<name>Español</name>
+				<level>C2</level>
+			</languageInfo>
+			<languageInfo motherTongue="yes">
+				<name>Euskera</name>
+				<level>B2</level>
+			</languageInfo>
+            <languageInfo motherTongue="no" certificate="http://www.cambridgeenglish.org/exams/first/">
+                <name>Inglés</name>
+                <level>C1.1</level>
+                <certificate>Cambridge English First (FCE)</certificate>
+            </languageInfo>
+		</linguisticSkills>
+		<vehicles>
+			<vehicle license="B">Car</vehicle>
+			<vehicle license="A2">Motorbike</vehicle>
+		</vehicles>
+	</otherInformation>
+</curriculum>
