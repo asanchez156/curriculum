@@ -134,15 +134,15 @@
 	<otherInformation>
 		<linguisticSkills>
 			<languageInfo motherTongue="yes">
-				<name>Español</name>
+				<name>Spanish</name>
 				<level>C2</level>
 			</languageInfo>
 			<languageInfo motherTongue="yes">
-				<name>Euskera</name>
+				<name>Vasque</name>
 				<level>B2</level>
 			</languageInfo>
             <languageInfo motherTongue="no" certificate="http://www.cambridgeenglish.org/exams/first/">
-                <name>Inglés</name>
+                <name>English</name>
                 <level>C1.1</level>
                 <certificate>Cambridge English First (FCE)</certificate>
             </languageInfo>
