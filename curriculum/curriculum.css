@@ -30,7 +30,7 @@ body { font-family: Georgia; color: #444; }
 
 /* //-- footer -- */
 #ft { padding: 1em 0 5em 0; font-size: 92%; text-align: center; }
-#ft p { margin-bottom: 0; text-align: center;   }
+#ft p { padding: 2; margin-bottom: 0; text-align: left;   }
 
 /* //-- core typography and style -- */
 #hd h1 { font-size: 34px; text-transform: uppercase; letter-spacing: 2px; }
@@ -74,4 +74,10 @@ a#pdf:hover { background: #222; }
 .yui-gf .yui-u{width:75.2%;}
 .yui-gf div.first{width:15.0%;}
 
+
+.align {
+	vertical-align:middle;
+}
+
+.footerCenter { width: 20%; margin: 0 auto;  }
 

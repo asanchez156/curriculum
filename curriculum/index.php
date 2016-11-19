@@ -17,6 +17,7 @@ $computing_skills = "Habilidades Informáticas";
 $mother_tonge = "Idioma materno";
 $foregin_languaje= "Idioma extranjero";
 $level = "Nivel";
+$certificate = "Certificado";
 
 $curriculum = simplexml_load_file("curriculum-es.xml");
 
@@ -195,22 +196,29 @@ $languages = $curriculum->otherInformation->linguisticSkills->languageInfo;
 						</div>
 						<div class="yui-u">
 							<ul class="talent">
-								<li>PHP/Node/Python</li>
-								<li>HTML5/CSS3/.NET(C#/VB)</li>
+								<li>PHP/Codeigniter Framework</li>
+                <li>Node JS/ Express Framework
+                <li>Spring 4/ Java Server Faces</li>
+                <li>HTML5/CSS3/Angular JS 2</li>
 								<li class="last">Javascript/JQuery</li>
 							</ul>
 
 							<ul class="talent">
-								<li>Java/C/C++</li>
-								<li>Apache Web Server</li>
-								<li class="last">MySQL/Oracle SQL/SQL Server</li>
+                <li>Ionic Framework/Cordoba</li>
+								<li>.NET(C#/VB)/C/C++</li>
+                <li>Apache Web Server/Tomcat</li>
+                <li>XML/MySQL/HSQL/Hibernate</li>
+								<li class="last">Oracle SQL/SQL Server</li>
 							</ul>
 
 							<ul class="talent">
+                <li>SBC: RaspberryPi/Arduino</li>
+                <li>Microcontrolador ESP8266</li>
+                <li>Eclipse/Netbeans/Shell</li>
 								<li>CVS/Subversion/Git</li>
-								<li>OS X/Linux/Windows</li>
-								<li class="last"></li>
+								<li class="last">OS X/Linux/Windows</li>
 							</ul>
+
 						</div>
 					</div><!--// .yui-gf-->
 
@@ -243,6 +251,9 @@ $languages = $curriculum->otherInformation->linguisticSkills->languageInfo;
 		                    			<div class="talent">
 		                                       <h2><?php echo $languageNo->name;?></h2>
 		                                       <p><?php echo $level.': '.$languageNo->level;?></p>
+                                           <?php if($languageNo->certificate!=""){?>
+                                              <p><?php echo $certificate.': '.$languageNo->certificate;?></p>
+                                           <?php } ?>
 		                                 </div>
                                 <?php }
                                 } ?>
@@ -250,12 +261,12 @@ $languages = $curriculum->otherInformation->linguisticSkills->languageInfo;
                       </div>
                 <!--// .yui-gf -->
 
-                      <div id="ft">
-                        <p> <a href="<?php echo $website;?>"><img src="<?php echo $websitePic;?>" width="30px"/></a>
-                     <?php foreach ($socials as $social){ ?>      
-                             <a href="<?php echo $social;?>"><img src="<?php echo $social["img"];?>" width="30px"/></a>
-                     <?php } ?>
-                </p>
+                  <div id="ft">
+                    <div class="footerCenter">
+                       <?php foreach ($socials as $social){ ?>      
+                               <p><a href="<?php echo $social;?>"><img class="align" src="<?php echo $social["img"];?>" width="30px"/></a> <a href="<?php echo $social;?>"><?php echo $social["username"];?></a></p>
+                       <?php } ?>
+                    </div>
                 </div>
                 <!--// footer -->
              </div>

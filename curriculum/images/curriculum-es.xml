@@ -10,9 +10,9 @@
 		<dateOfBirth>1992</dateOfBirth>
 		<contactInfo>
 			<email img="images/email.png">andoni.sanchez.antolin@gmail.com</email>
+			<socialNetwork name="Twitter" username="@andonisanchezz" img="images/twitter.png">https://twitter.com/andonisanchezz</socialNetwork>
 			<socialNetwork name="LinkedIn" username="andonisanchezantolin" img="images/linkedin.png">https://www.linkedin.com/in/andonisanchezantolin</socialNetwork>
-            <socialNetwork name="GitHub" username="@asanchez156" img="images/github.png" >https://github.com/asanchez156</socialNetwork>
-            <socialNetwork name="Twitter" username="@andonisanchezz" img="images/twitter.png">https://twitter.com/andonisanchezz</socialNetwork>
+            <socialNetwork name="GitHub" username="asanchez156" img="images/github.png" >https://github.com/asanchez156</socialNetwork>
 			<webSite img="images/site.png">http://asanchez.my-style.in/</webSite>
 		</contactInfo>
 		<aboutMe>
@@ -86,7 +86,7 @@
             <endDate>Actualmente</endDate>
             <company>Indaba Consultores S.L (LKS)</company>
             <occupation>Programador</occupation>
-            <description>Autoformación en las tecnologías Java Server Faces, Spring 4 MVC, Ionic Framework (versiones 1 y 2) y Liferay 6.2 .</description>
+            <description>Autoformación en las tecnologías Java Server Faces, Spring 4 MVC, Ionic Framework (versiones 1 y 2) y Liferay 6.2</description>
         </professionalExperience>
         <professionalExperience type="practices">
             <startDate>2016-01-27</startDate>
@@ -144,7 +144,6 @@
             <languageInfo motherTongue="no" certificate="http://www.cambridgeenglish.org/exams/first/">
                 <name>Inglés</name>
                 <level>C1.1</level>
-                <certificate>Cambridge English First (FCE)</certificate>
             </languageInfo>
 		</linguisticSkills>
 		<vehicles>
